@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Abra React</title>
+    <link rel="stylesheet" href="css-reset.css" />
+    <link rel="stylesheet" href="style-task-1.css" />
+</head>
+
+<body>
+    <div id="main.container">
+        <header>
+            <img class="logo" src="./assets/Logo.png" />
+        </header>
+
+        <article id="website-article">
+            <h1>React</h1>
+            <h3 class="subheading">A JavaScript library for building user interfaces</h3>
+            <button class="primary-btn btn">get started</button>
+            <button class="secondary-btn btn">tutorial</button>
+            <h4 class="big-title">Learn Once, Write Anywhere</h4>
+            <div class="container">
+                <p class="default-p">We don’t make assumptions about the rest of your technology stack,
+                    so you can develop new features in React without rewriting existing code.
+                    React can render on the server using Node and power mobile apps using
+                    <a class="marked-link" href="#">React Native.</a>
+                </p>
+                <hr class="divider" />
+                <h5 class="headline">A Simple Component</h5>
+                <p class="default-p">
+                    React components implement a
+                    <span class="bold">render()</span> method that takes input data and returns what to display. This
+                    example uses an XML-like syntax called JSX. Input data that is passed into the component can be
+                    accessed by <span class="bold">render()</span> via <span class="bold">this.props.</span>
+                    <br /><br />
+                    JSX is optional and not required to use React. Try the <a class="normal-link" href="#">Babel
+                        REPL</a> to see the raw JavaScript code produced by the JSX compilation step.()
+                </p>
+                <img class="code-img" src="./assets/image p2.png" />
+                <hr class="divider" />
+                <h5 class="headline">Basic List Component</h5>
+                <ol class="list">
+                    <li>Usually you would render lists inside a component.</li>
+                    <li>We can refactor the previous example into a component that accepts an array of numbers and
+                        outputs a list of elements.</li>
+                    <li>When you run this code, you’ll be given a warning that a key should be provided for list
+                        items.
+                        <br/>
+                        <ul class="dot-list">
+                            <li>A “key” is a special string attribute you need to include when creating lists of elements.</li>
+                            <li>We’ll discuss why it’s important in the next section.</li>
+                            <li>Let’s assign a
+                                <span class="bold">key</span>
+                                to our list items inside
+                                <span class="bold">numbers.map()</span>
+                                and fix the missing key issue.
+                              </span></li>
+                        </ul>
+                    </li>
+                </ol>
+                <img class="code-img" src="./assets/image p3.png" />
+                <p class="default-p"><a class="normal-link" href="#">Try it on Abra-Labs</a></p>
+                <br />
+
+            </div>
+
+        </article>
+    </div>
+</body>
+
+
+
+</html>

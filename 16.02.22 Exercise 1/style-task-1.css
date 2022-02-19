@@ -1,0 +1,164 @@
+html {
+    background-color: #fcfaf7;
+    color: #1c1c1c;
+    font-size: 62.5%;
+}
+
+.logo {
+    padding-top: 20px;
+    padding-left: 64px;
+}
+
+#main.container {
+    margin-left: 64px;
+}
+
+header {
+    background-color: #0e1649;
+    height: 100px;
+}
+
+#website-article {
+    margin-top: 32px;
+    padding-left: 64px;
+}
+
+#website-article h1 {
+    font-family: Times New Roman;
+    font-size: 7.2rem;
+    font-weight: bold;
+    line-height: 1.5;
+    letter-spacing: 1.44px;
+    text-align: left;
+    color: #0e1649;
+}
+
+.subheading {
+    font-family: Courier New;
+    font-size: 2.6rem;
+    font-weight: normal;
+    letter-spacing: -1.56px;
+    text-align: left;
+}
+
+.btn {
+    width: 205px;
+    height: 55px;
+    display: inline;
+    border-radius: 12px;
+    font-family: Arial;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    margin: 24px 16px 0 0;
+}
+
+.primary-btn {
+    background-color: #ff9f00;
+    color: #fff;
+}
+
+.primary-btn:hover {
+    background-color: #f08e0e;
+}
+
+.primary-btn:active {
+    background-color: #ffbb33 ;
+    outline: none;
+    border: none;
+}
+
+.secondary-btn {
+    border: solid 2px #ff9f00;
+    color: #ff9f00;
+    background-color: unset;
+}
+
+.secondary-btn:hover {
+    border: solid 2px #f08e0e;
+    color: #f08e0e;
+    background-color: unset;
+}
+
+.secondary-btn:active {
+    border: solid 2px #ffbb33;
+    color: #ffbb33;
+    background-color: unset;
+    outline: none;
+}
+
+.big-title {
+    margin-top: 72px;
+    margin-bottom: 16px;
+    font-family: Courier New;
+    font-size: 2.4rem;
+    font-weight: bold;
+    letter-spacing: -0.48px;
+    text-align: left;
+    color: #3E446C;
+}
+
+.container {
+    width: 50%;
+}
+
+.divider {
+    margin-bottom: 40px;
+    border: none;
+    height: 1px;
+    background-color: #e1e1e1;
+}
+
+.default-p {
+    margin-bottom: 40px;
+    font-family: Arial;
+    font-size: 1.8rem;
+    font-weight: normal;
+    line-height: 1.5;
+    text-align: left;
+    color: #1c1c1c;
+}
+
+.marked-link {
+    color: #0e1649;
+    background-color: #cfd0d6;
+}
+
+.headline {
+    margin-bottom: 16px;
+    font-family: Arial;
+    font-size: 2.4rem;
+    font-weight: bold;
+    letter-spacing: 0.48px;
+    text-align: left;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.normal-link {
+    color: #ff7748;
+    background: unset;
+}
+
+.code-img {
+    width: 648px;
+    margin: 40px 0;
+    object-fit: contain;
+}
+.list {
+    padding-inline-start: 1.8rem;
+    font-family: Arial;
+    font-size: 1.8rem;
+    font-weight: normal;
+    line-height: 1.5;
+    text-align: left;
+    color: #1c1c1c;
+}
+.dot-list {
+    padding-inline-start: 1.8rem;
+    list-style-type: disc;
+}
