@@ -1,0 +1,100 @@
+html {
+    color: #FFFFFF;
+    font-size: 62.5%;
+}
+
+body {
+    background: url("./assets/Background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+#main-container {
+    width: 33%;
+    margin: 5% auto;
+    text-align: center;
+}
+
+.logo {
+    margin: 20px 0 0 64px;
+}
+
+h1 {
+    font-family: 'Assistant', sans-serif;
+    font-size: 6.4rem;
+    font-weight: bold;
+    line-height: normal;
+    letter-spacing: 0.256rem;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.default-p {
+    font-family: 'Assistant', sans-serif;
+    font-size: 2rem;
+    line-height: normal;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 64px;
+}
+
+label {
+    display: block;
+    font-family: 'Assistant', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-align: left;
+    margin-bottom: 6px;
+}
+
+.my-input {
+    width: 100%;
+    padding: 20px 0 20px 16px;
+    opacity: 0.9;
+    border-radius: 1.2rem;
+    background-color: #fff;
+    color: #0e1649;
+    font-family: 'Assistant', sans-serif;
+    font-size: 2rem;
+    line-height: 1;
+    text-align: left;
+    margin-bottom: 24px;
+}
+
+.my-input::placeholder {
+    font-family: 'Assistant', sans-serif;
+    font-size: 2rem;
+    line-height: 1;
+    text-align: left;
+    color: #9094ab;
+}
+
+.btn {
+    width: 100%;
+    padding: 16px 0;
+    color: #fff;
+    background-color: #ff9f00;
+    border-radius: 12px;
+    border: none;
+    font-family: 'Assistant', sans-serif;
+    font-size: 2.6rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.sign-up {
+    display: block;
+    font-family: 'Assistant', sans-serif;
+    font-size: 1.6rem;
+    font-weight: normal;
+    line-height: normal;
+    text-align: center;
+    margin-top: 8px;
+}
+
+.normal-link {
+    color: #ff9f00;
+    background: unset;
+}
