@@ -1,0 +1,80 @@
+html {
+    font-size: 62.5%;
+    background-color: #fcfaf7;
+}
+
+.blue-rectangle {
+    position: relative;
+    width: 60%;
+    height: 66%;
+    background-color: #0e1649;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 180px
+}
+
+.blue-rectangle h1 {
+    padding: 26rem 0;
+    font-family: 'Assistant', sans-serif;
+    font-size: 6.4rem;
+    font-weight: 800;
+    line-height: normal;
+    text-align: center;
+    color: #fcfaf7;
+}
+
+.logo {
+    position: absolute;
+    top: 68px;
+    left: -180px;
+}
+
+.r-circle {
+    position: absolute;
+    top: -142px;
+    right: -142px;
+    width: 284px;
+    height: 284px;
+    background-color: #ff9f00;
+    border-radius: 200px;
+}
+
+.r-rectangle {
+    position: absolute;
+    top: 200px;
+    right: -88px;
+    width: 176px;
+    height: 176px;
+    background-color: #ff7748;
+}
+
+.r-polygon {
+    position: absolute;
+    top: -81.5px;
+    right: 188px;
+}
+
+.l-circle {
+    position: absolute;
+    left: 151px;
+    bottom: -52px;
+    width: 104px;
+    height: 104px;
+    background-color: #ff9f00;
+    border-radius: 400px;
+}
+
+.l-rectangle {
+    position: absolute;
+    bottom: -88px;
+    left: -88px;
+    width: 176px;
+    height: 176px;
+    background-color: #ff7748;
+}
+
+.l-polygon {
+    position: absolute;
+    bottom: 155px;
+    left: -66px;
+}
