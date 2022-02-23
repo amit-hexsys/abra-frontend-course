@@ -4,10 +4,11 @@ html {
 }
 
 body {
-    background: url("./assets/Background.png");
+    background: url("./assets/Background-big.png");
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
+    overflow: hidden;
 }
 
 #main-container {
