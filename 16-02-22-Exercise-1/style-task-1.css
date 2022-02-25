@@ -65,7 +65,7 @@ header {
 }
 
 .primary-btn:active {
-    background-color: #ffbb33 ;
+    background-color: #ffbb33;
     outline: none;
     border: none;
 }
@@ -149,6 +149,7 @@ header {
     margin: 40px 0;
     object-fit: contain;
 }
+
 .list {
     padding-inline-start: 1.8rem;
     font-family: Arial;
@@ -158,6 +159,7 @@ header {
     text-align: left;
     color: #1c1c1c;
 }
+
 .dot-list {
     padding-inline-start: 1.8rem;
     list-style-type: disc;

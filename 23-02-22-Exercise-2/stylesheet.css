@@ -1,0 +1,125 @@
+html {
+    background-color: #fff;
+    color: #1c1c1c;
+    font-size: 62.5%;
+}
+
+.logo {
+    position: absolute;
+    margin: 32px 0 32px 64px;
+}
+
+.main-container {
+    margin: 0 64px;
+    padding-bottom: 100px;
+}
+
+header {
+    position: relative;
+    background-color: #0e1649;
+    height: 128px;
+}
+
+h1 {
+    margin: 64px 0;
+    font-family: 'Courier New';
+    font-size: 2.4rem;
+    font-weight: bold;
+    letter-spacing: -0.48px;
+    text-align: left;
+    color: #0e1649;
+}
+
+.column-left {
+    display: inline-block;
+    width: 25%;
+    height: 100%;
+    margin-right: 24px;
+}
+
+.column-right {
+    display: inline-block;
+    width: 25%;
+    height: 100%;
+    padding-top: 0;
+}
+
+.column-center {
+    display: inline-block;
+    width: 46%;
+    margin-right: 24px;
+    height: 100%;
+}
+
+.subtitle {
+    font-family: 'Arial';
+    font-size: 1.6rem;
+    font-weight: normal;
+    line-height: 1.69;
+    letter-spacing: normal;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.small-title {
+    font-family: 'Arial';
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: normal;
+    letter-spacing: 0.48px;
+    text-align: left;
+    text-transform: capitalize;
+    margin: 16px 0;
+}
+
+.default-p {
+    font-family: 'Arial';
+    font-size: 1.8rem;
+    font-weight: normal;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.btn {
+    margin-top: 16px;
+    padding: 16px 32px;
+    display: inline;
+    font-family: 'Assistant', sans-serif;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 12px;
+    border: none;
+    background-color: #ff9f00;
+    color: #fff;
+}
+
+.article-img {
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+.divider {
+    width: 100%;
+    margin: 40px 0;
+    border: none;
+    height: 1px;
+    background-color: #e1e1e1;
+}
+
+.normal-link {
+    color: #ff7748;
+    background: unset;
+    text-decoration: underline;
+}
+
+.dot-list {
+    padding-inline-start: 1.8rem;
+    font-family: 'Arial';
+    font-size: 1.8rem;
+    font-weight: normal;
+    line-height: 1.5;
+    text-align: left;
+    list-style-type: disc;
+}
