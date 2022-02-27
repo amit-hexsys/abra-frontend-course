@@ -16,8 +16,27 @@ html {
 
 header {
     position: relative;
+    position: sticky;
+    top: 0;
     background-color: #0e1649;
     height: 128px;
+}
+
+.menu-item {
+    display: inline-block;
+    padding: 16px;
+    font-family: 'Assistant', sans-serif;
+    font-size: 2.4rem;
+    font-weight: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+}
+
+.menu {
+    float: right;
+    margin: 32px 64px 0 0;
 }
 
 h1 {
@@ -32,6 +51,7 @@ h1 {
 
 .column-left {
     display: inline-block;
+    float: left;
     width: 25%;
     height: 100%;
     margin-right: 24px;
@@ -39,9 +59,9 @@ h1 {
 
 .column-right {
     display: inline-block;
+    float: right;
     width: 25%;
     height: 100%;
-    padding-top: 0;
 }
 
 .column-center {
