@@ -1,0 +1,165 @@
+html {
+    background-color: #ffffff;
+    color: #1c1c1c;
+    font-size: 62.5%;
+
+}
+
+#game-name {
+    padding-top: 22px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 600;
+    font-size: 3.6rem;
+    line-height: 1;
+    letter-spacing: 1.5px;
+    text-align: left;
+    color: #ffffff;
+    display: inline-block;
+}
+
+#info-icon {
+    width: 24px;
+    margin-left: 16px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.menu {
+    background-color: #015858;
+    height: 80px;
+    text-align: left;
+    margin-bottom: 40px;
+    padding-left: 40px;
+}
+
+#main-container {
+    text-align: left;
+    height: auto;
+    padding-left: 40px;
+}
+
+.btn {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 16px;
+    height: 40px;
+    display: inline;
+    border-radius: 8px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 2rem;
+    font-weight: 400;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+
+.full-btn {
+    color: #ffffff;
+    background-color: #015858;
+}
+
+.empty-btn {
+    color: #015858;
+    background-color: #ffffff;
+    border: 2px solid #015858;
+}
+
+.num-input {
+    box-sizing: border-box;
+    width: 40px;
+    height: 40px;
+    font-size: 3rem;
+    border-radius: 8px;
+    background-color: #e1eeee;
+    padding: 0;
+    border: none;
+    /* border: 2px solid #015858; */
+    text-align: center;
+    margin-right: 8px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.guess-inputs {
+    display: inline-block;
+}
+
+#guess-btn {
+    margin-left: 4px;
+}
+
+.guesses {
+    height: auto;
+}
+
+#score {
+    display: inline-block;
+}
+
+.texts {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+}
+
+#popup {
+    width: 40%;
+    position: absolute;
+    top: 18%;
+    left: 30%;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2); 
+    padding: 24px;
+}
+
+.title {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 2.4rem;
+    font-weight: 600;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #015858; 
+    margin-bottom: 8px;
+}
+
+#text-info {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+}
+
+.visible {
+    visibility: visible;
+}
+
+.hidden {
+    visibility: hidden;
+    height: 0;
+}
+
+a {
+    color: #015858; 
+}
+
+#score {
+    margin-left: 8px;
+}
+
+#result-game {
+    margin: 16px 0;
+}

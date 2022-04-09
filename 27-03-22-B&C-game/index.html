@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Bulls & Cows Game</title>
+    <link rel="stylesheet" href="./css-reset.css" />
+    <link rel="stylesheet" href="./stylesheet.css" />
+    <script src="./index.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./assets/favicon.ico" />
+</head>
+
+<body>
+    <header>
+        <div class="menu">
+            <h1 id="game-name">Bulls & Cows Game</h1>
+            <img id="info-icon" src="./assets/info-icon.png" />
+        </div>
+    </header>
+    <div id="main-container">
+        <div class="game-bar">
+            <div class="guess-inputs">
+                <input id="num1" class="num-input" type="number" maxlength="1" placeholder="?" />
+                <input id="num2" class="num-input" type="number" maxlength="1" placeholder="?" />
+                <input id="num3" class="num-input" type="number" maxlength="1" placeholder="?" />
+                <input id="num4" class="num-input" type="number" maxlength="1" placeholder="?" />
+            </div>
+            <button id="guess-btn" class="full-btn btn">Guess!</button>
+            <div id="score" class="texts"></div>
+            <br />
+        </div>
+        <div class="guesses hidden" id="guesses">
+            <div class="guess-row">
+                <input class="num-input" type="number" value="0" disabled />
+                <input class="num-input" type="number" value="0" disabled />
+                <input class="num-input" type="number" value="0" disabled />
+                <input class="num-input" type="number" value="0" disabled />
+            </div>
+            <div class="guess-row">
+                <input class="num-input" type="number" value="0" disabled />
+                <input class="num-input" type="number" value="0" disabled />
+                <input class="num-input" type="number" value="0" disabled />
+                <input class="num-input" type="number" value="0" disabled />
+            </div>
+        </div>
+        <div id="result-game" class="texts"></div>
+        <button id="newgame-btn" class="empty-btn btn">New Game</button>
+    </div>
+    <div id="popup" class="hidden">
+        <button id="close-popup">X</button>
+        <div id="info">
+            <h2 class="title">How to Play</h2>
+            <p id="text-info">Bulls and Cows is a 2 player game. One player thinks of a number, while the other player
+                tries to guess
+                it.
+                <br />
+                The number to be guessed must be a 4 digit number, using only digits from 1 - 9, each digit atmost once.
+                e.g. 1234 is valid, 0123 is not valid, 9877 is not valid, 9876 is valid.
+                <br />
+                For every guess that the player makes, he gets 2 values - the number of bulls and the number of cows. 1
+                bull means the guess contains and the target number have 1 digit in common, and in the correct position.
+                <br />
+                1 cow means the guess and the target have 1 digit in common, but not in correct position. e.g.
+                <br />
+                Let the target be 1234. Guessing 4321 will give 0 bulls and 4 cows. 3241 will give 1 bull and 3 cows. 4
+                bulls
+                means you have won the game!
+                The player gets 7 chances to correctly guess the entire number.
+                <br /><br />
+                P.S. If you still have doubts about the rules, check it over
+                <a href="https://en.wikipedia.org/wiki/Bulls_and_Cows">here</a>
+            </p>
+        </div>
+
+    </div>
+</body>
